@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "ExternalEdit: Save changes",
+        "command": "send_changes"
+    }
+]
