@@ -2,5 +2,9 @@
     {
         "caption": "ExternalEdit: Save changes",
         "command": "send_changes"
+    },
+    {
+        "caption": "ExternalEdit: Load control file",
+        "command": "ee_process_control_file"
     }
 ]
