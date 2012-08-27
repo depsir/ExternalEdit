@@ -25,6 +25,8 @@ Note that every line except the last one must end with a comma
 #Usage
 1. Go to an external edit link, a file will be downloaded. Its name should be something like index.php
 1. The mediawiki file will be downloaded and shown into sublime text
+    1. if the file name was something like index.php the page will be downloaded automatically
+    1. otherwise just run the "ExternalEdit: Load control file" command
 1. From the command palette (ctrl+shift+p) run the "ExternalEdit: Save changes" command
 
 #Contributing
