@@ -5,7 +5,9 @@ Every page can be edited externally by attaching '&externaledit=true' to the edi
 
     http://en.wikipedia.org/w/index.php?title=MediaWiki&action=edit&externaledit=true
 
-Refer to http://www.mediawiki.org/wiki/Manual:External_editors
+Otherwise you can drag this [bookmarklet](javascript:location=location+'?action=edit&externaledit=true';) to your bookmark bar to external edit a page
+
+Refer to http://www.mediawiki.org/wiki/Manual:External_editors.
 
 This code is partyl based on http://code.google.com/p/python-wikitools/
 
