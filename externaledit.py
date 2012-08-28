@@ -62,7 +62,7 @@ class eeSendChanges(sublime_plugin.TextCommand):
 		s = self.view.settings()
 		if s.has("externaledit_username") and s.has("externaledit_password"):
 			ee.site.login(s.get("externaledit_username", ''), s.get("externaledit_password", ''))
-			ee.mypage.edit(self.view.substr(sublime.Region(0,self.view.size())))
+			ee.mypage.edit(self.view.substr(sublime.Region(0,self.view.size())).encode('utf-8'))
 			print "saved"
 
 class eeProcessControlFile(sublime_plugin.TextCommand):
