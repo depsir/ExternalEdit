@@ -1,0 +1,15 @@
+[
+  {
+    "command": "ee_process_control_file",
+    "context": [],
+    "keys": [
+      "ctrl+e", "ctrl+e"
+    ]
+  }, 
+  {
+    "command": "ee_send_changes",
+    "keys": [
+      "ctrl+e", "ctrl+s"
+    ]
+  }
+]
