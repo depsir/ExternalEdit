@@ -69,10 +69,3 @@ class eeProcessControlFile(sublime_plugin.TextCommand):
 	def run(self, edit):
 		global ee
 		ee.load(self.view)
-
-class EEEventListener(sublime_plugin.EventListener):
-	def on_load(self,view):
-		global ee
-		doc = view.file_name()
-		if re.search(r'index( *\([0-9]*\))*.php$',doc):
-			ee.load(view)

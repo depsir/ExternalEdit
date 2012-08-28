@@ -10,7 +10,7 @@ Refer to http://www.mediawiki.org/wiki/Manual:External_editors
 This code is partyl based on http://code.google.com/p/python-wikitools/
 
 #Installation
-Go to your packages directory which usually is ~/.config/sublimetext2/Packages
+Go to your packages directory which should be something similar to ~/.config/sublimetext2/Packages
 
     git clone https://github.com/depsir/ExternalEdit
 
@@ -23,10 +23,10 @@ In your Preferences: Settings - User, accessible from the command palette (ctrl+
 Note that every line except the last one must end with a comma
 
 #Usage
-1. Go to an external edit link, a file will be downloaded. Its name should be something like index.php
-1. The mediawiki file will be downloaded and shown into sublime text
-    1. if the file name was something like index.php the page will be downloaded automatically
-    1. otherwise just run the "ExternalEdit: Load control file" command
+1. Go to an external edit link, a file will be downloaded.
+1. Open the mediawiki file into sublime text
+1. Run the "ExternalEdit: Load control file" command
+1. Edit your page in sublime text
 1. From the command palette (ctrl+shift+p) run the "ExternalEdit: Save changes" command
 
 #Contributing
