@@ -1,7 +1,7 @@
 [
     {
         "caption": "ExternalEdit: Save changes",
-        "command": "send_changes"
+        "command": "ee_send_changes"
     },
     {
         "caption": "ExternalEdit: Load control file",

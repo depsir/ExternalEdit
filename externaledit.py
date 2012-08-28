@@ -56,7 +56,7 @@ class ExternalEdit:
 
 ee = ExternalEdit()
 
-class SendChanges(sublime_plugin.TextCommand):
+class eeSendChanges(sublime_plugin.TextCommand):
 	def run(self, edit):
 		global ee
 		s = self.view.settings()
