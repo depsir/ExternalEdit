@@ -12,7 +12,7 @@ Refer to http://www.mediawiki.org/wiki/Manual:External_editors.
 This code is partyl based on http://code.google.com/p/python-wikitools/
 
 #Installation
-Go to your packages directory which should be something similar to ~/.config/sublimetext2/Packages
+Go to your packages directory which should be something similar to ~/.config/sublime-text-2/Packages
 
     git clone https://github.com/depsir/ExternalEdit
 
