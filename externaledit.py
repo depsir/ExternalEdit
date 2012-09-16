@@ -45,7 +45,7 @@ class ExternalEdit:
 			self.site = wiki.Wiki(wk_server+wk_path+"/api.php") 
 			pagename = re.search('title=([^&]*)', wk_url)
 			pagename = pagename.group(1)
-			view.set_name(pagename)
+			view.set_name(pagename+'.mediawiki')
 			self.mypage = page.Page(self.site, pagename)
 			edit = view.begin_edit()
 			reg = sublime.Region(0,view.size())
