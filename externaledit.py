@@ -1,4 +1,5 @@
 import sublime, sublime_plugin
+import os
 import re
 from wiki import *
 from api import *
@@ -49,7 +50,9 @@ class ExternalEdit:
 			edit = view.begin_edit()
 			reg = sublime.Region(0,view.size())
 			view.erase(edit,reg)
-			view.set_syntax_file('Packages/Mediawiki.tmbundle/Syntaxes/Mediawiki.tmLanguage')
+			syntaxName = sublime.packages_path()+'/mediawiki.tmbundle/Syntaxes/Mediawiki.tmLanguage'
+			if os.path.exists(syntaxName):
+				view.set_syntax_file(syntaxName)
 			view.set_encoding('utf-8')
 			view.insert(edit,0,self.mypage.getWikiText().decode('utf-8'))
 			view.end_edit(edit)
